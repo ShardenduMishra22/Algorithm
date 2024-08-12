@@ -23,6 +23,7 @@ double TernarySearch(double l,double r,double epsln = 1e-7){
     return (l + r)/2.0;
 }
 
+
 int main(){
     double l = 0.0, r = 4.0;
     double Mx_x = TernarySearch(l,r);
